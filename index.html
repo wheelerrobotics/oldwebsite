@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
-  <script>
-    // redirect to wheelerrobotics.gatsbyjs.io on load
-    window.location.replace("https://wheelerrobotics.github.io/website/");
-  </script>
+<script>
+  // redirect to wheelerrobotics.gatsbyjs.io on load
+  window.location.replace("https://electricquahogs.gatsbyjs.io/");
+</script>
 
 
 <title>Wheeler FTC Robotics</title>
@@ -12,7 +12,8 @@
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+  integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
 
 
 <head>
@@ -20,274 +21,337 @@
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-177288738-1"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
+    function gtag() { dataLayer.push(arguments); }
     gtag('js', new Date());
-  
+
     gtag('config', 'UA-177288738-1');
   </script>
-  
-  
+
+
   <script>
-window['_fs_debug'] = false;
-window['_fs_host'] = 'fullstory.com';
-window['_fs_script'] = 'edge.fullstory.com/s/fs.js';
-window['_fs_org'] = '18N4ST';
-window['_fs_namespace'] = 'FS';
-(function(m,n,e,t,l,o,g,y){
-    if (e in m) {if(m.console && m.console.log) { m.console.log('FullStory namespace conflict. Please set window["_fs_namespace"].');} return;}
-    g=m[e]=function(a,b,s){g.q?g.q.push([a,b,s]):g._api(a,b,s);};g.q=[];
-    o=n.createElement(t);o.async=1;o.crossOrigin='anonymous';o.src='https://'+_fs_script;
-    y=n.getElementsByTagName(t)[0];y.parentNode.insertBefore(o,y);
-    g.identify=function(i,v,s){g(l,{uid:i},s);if(v)g(l,v,s)};g.setUserVars=function(v,s){g(l,v,s)};g.event=function(i,v,s){g('event',{n:i,p:v},s)};
-    g.anonymize=function(){g.identify(!!0)};
-    g.shutdown=function(){g("rec",!1)};g.restart=function(){g("rec",!0)};
-    g.log = function(a,b){g("log",[a,b])};
-    g.consent=function(a){g("consent",!arguments.length||a)};
-    g.identifyAccount=function(i,v){o='account';v=v||{};v.acctId=i;g(o,v)};
-    g.clearUserCookie=function(){};
-    g.setVars=function(n, p){g('setVars',[n,p]);};
-    g._w={};y='XMLHttpRequest';g._w[y]=m[y];y='fetch';g._w[y]=m[y];
-    if(m[y])m[y]=function(){return g._w[y].apply(this,arguments)};
-    g._v="1.3.0";
-})(window,document,window['_fs_namespace'],'script','user');
-</script>
-  
-  </head>
-  
+    window['_fs_debug'] = false;
+    window['_fs_host'] = 'fullstory.com';
+    window['_fs_script'] = 'edge.fullstory.com/s/fs.js';
+    window['_fs_org'] = '18N4ST';
+    window['_fs_namespace'] = 'FS';
+    (function (m, n, e, t, l, o, g, y) {
+      if (e in m) { if (m.console && m.console.log) { m.console.log('FullStory namespace conflict. Please set window["_fs_namespace"].'); } return; }
+      g = m[e] = function (a, b, s) { g.q ? g.q.push([a, b, s]) : g._api(a, b, s); }; g.q = [];
+      o = n.createElement(t); o.async = 1; o.crossOrigin = 'anonymous'; o.src = 'https://' + _fs_script;
+      y = n.getElementsByTagName(t)[0]; y.parentNode.insertBefore(o, y);
+      g.identify = function (i, v, s) { g(l, { uid: i }, s); if (v) g(l, v, s) }; g.setUserVars = function (v, s) { g(l, v, s) }; g.event = function (i, v, s) { g('event', { n: i, p: v }, s) };
+      g.anonymize = function () { g.identify(!!0) };
+      g.shutdown = function () { g("rec", !1) }; g.restart = function () { g("rec", !0) };
+      g.log = function (a, b) { g("log", [a, b]) };
+      g.consent = function (a) { g("consent", !arguments.length || a) };
+      g.identifyAccount = function (i, v) { o = 'account'; v = v || {}; v.acctId = i; g(o, v) };
+      g.clearUserCookie = function () { };
+      g.setVars = function (n, p) { g('setVars', [n, p]); };
+      g._w = {}; y = 'XMLHttpRequest'; g._w[y] = m[y]; y = 'fetch'; g._w[y] = m[y];
+      if (m[y]) m[y] = function () { return g._w[y].apply(this, arguments) };
+      g._v = "1.3.0";
+    })(window, document, window['_fs_namespace'], 'script', 'user');
+  </script>
+
+</head>
+
 <style>
-body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
-body, html {
-  height: 100%;
-  color: #777;
-  line-height: 1.8;
-}
+  body,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Lato", sans-serif;
+  }
 
-/* Create a Parallax Effect */
-.bgimg-1, .bgimg-2, .bgimg-3 {
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
+  body,
+  html {
+    height: 100%;
+    color: #777;
+    line-height: 1.8;
+  }
 
-/* First image (Logo. Full height) */
-.bgimg-1 {
-  background-image: url('/media/robots.jpeg');
-  min-height: 100%;
-}
+  /* Create a Parallax Effect */
+  .bgimg-1,
+  .bgimg-2,
+  .bgimg-3 {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 
-/* Second image (SignUp) */
-.bgimg-2 {
-  background-image: url("https://www.firstinspires.org/sites/default/files/open-graph-first-logo.png");
-  min-height: 400px;
-}
+  /* First image (Logo. Full height) */
+  .bgimg-1 {
+    background-image: url('/media/robots.jpeg');
+    min-height: 100%;
+  }
 
-/* Third image (Contact) */
-.bgimg-3 {
-  background-image: url("https://i.ytimg.com/vi/YCtHd0DFoyY/maxresdefault.jpg");
-  min-height: 400px;
-}
-
-.logo {
-  height:32px;
-  margin-top: -2px;
-  padding-right: 2px;
-}
-
-.w3-wide {letter-spacing: 10px;}
-.w3-hover-opacity {cursor: pointer;}
-
-/* Turn off parallax scrolling for tablets and phones */
-@media only screen and (max-device-width: 1600px) {
-  .bgimg-1, .bgimg-2, .bgimg-3 {
-    background-attachment: scroll;
+  /* Second image (SignUp) */
+  .bgimg-2 {
+    background-image: url("https://www.firstinspires.org/sites/default/files/open-graph-first-logo.png");
     min-height: 400px;
   }
-}
+
+  /* Third image (Contact) */
+  .bgimg-3 {
+    background-image: url("https://i.ytimg.com/vi/YCtHd0DFoyY/maxresdefault.jpg");
+    min-height: 400px;
+  }
+
+  .logo {
+    height: 32px;
+    margin-top: -2px;
+    padding-right: 2px;
+  }
+
+  .w3-wide {
+    letter-spacing: 10px;
+  }
+
+  .w3-hover-opacity {
+    cursor: pointer;
+  }
+
+  /* Turn off parallax scrolling for tablets and phones */
+  @media only screen and (max-device-width: 1600px) {
+
+    .bgimg-1,
+    .bgimg-2,
+    .bgimg-3 {
+      background-attachment: scroll;
+      min-height: 400px;
+    }
+  }
+
 </style>
+
 <body>
 
-<!-- Navbar (sit on top) -->
-<div class="w3-top">
-  <div class="w3-bar w3-text-white" id="myNavbar">
-    <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
-      <i class="fa fa-bars"></i>
-    </a>
-    <a href="#home" class="w3-bar-item w3-button">
-      <img src="/media/wheeler.png" alt="Wheeler" class="logo">
-      FTC
-    </a>
-    <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> ABOUT</a>
-    <a href="#signup" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> JOIN</a>
+  <!-- Navbar (sit on top) -->
+  <div class="w3-top">
+    <div class="w3-bar w3-text-white" id="myNavbar">
+      <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);"
+        onclick="toggleFunction()" title="Toggle Navigation Menu">
+        <i class="fa fa-bars"></i>
+      </a>
+      <a href="#home" class="w3-bar-item w3-button">
+        <img src="/media/wheeler.png" alt="Wheeler" class="logo">
+        FTC
+      </a>
+      <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> ABOUT</a>
+      <a href="#signup" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> JOIN</a>
+
+    </div>
+
+    <!-- Navbar on small screens -->
+    <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+      <a href="#about" class="w3-bar-item w3-button " onclick="toggleFunction()">ABOUT</a>
+      <a href="#signup" class="w3-bar-item w3-button" onclick="toggleFunction()">JOIN</a>
+      <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
+
+
+    </div>
+  </div>
+
+  <!-- First Parallax Image with Logo Text -->
+  <div class="bgimg-1 w3-display-container" id="home">
+    <div class="w3-display-middle" style="white-space:nowrap;">
+      <span class="w3-center w3-padding-large w3-black w3-xxlarge w3-wide w3-animate-opacity">Wheeler Robotics <span
+          class="w3-hide-small">Team</span></span>
+    </div>
+    <div class="w3-display-bottommiddle" style="white-space:nowrap; padding-bottom: 10px;">
+      <i class="fas fa-arrow-down w3-text-white fa-3x"></i>
+    </div>
+
 
   </div>
 
-  <!-- Navbar on small screens -->
-  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
-    <a href="#about" class="w3-bar-item w3-button " onclick="toggleFunction()">ABOUT</a>
-    <a href="#signup" class="w3-bar-item w3-button" onclick="toggleFunction()">JOIN</a>
-    <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
-
-
-</div>
-</div>
-
-<!-- First Parallax Image with Logo Text -->
-<div class="bgimg-1 w3-display-container" id="home">
-  <div class="w3-display-middle" style="white-space:nowrap;">
-    <span class="w3-center w3-padding-large w3-black w3-xxlarge w3-wide w3-animate-opacity">Wheeler Robotics <span class="w3-hide-small">Team</span></span>
-  </div>
-  <div class="w3-display-bottommiddle" style="white-space:nowrap; padding-bottom: 10px;">
-    <i class="fas fa-arrow-down w3-text-white fa-3x"></i>
-  </div>
-
-  
-</div>
-
-<!-- Container (About Section) -->
-<div class="w3-content w3-container w3-padding-64" id="about">
-  <h3 class="w3-center">WHAT DOES THE ROBOTICS TEAM DO?</h3>
-  <p class="w3-center"><em>FIRST COMPETITION</em></p>
-  <p>Wheeler's Robotics Team competes in FIRST's FTC competition. This is an international competition which has nearly 80k teams participating. 
-    FIRST (“For Inspiration and Recognition of Science and Technology”) was founded in 1989 by Dean Kamen, the inventor of the Segway. The goal of the competition is to inspire young people to take an interest in STEM (science, technology, engineering, and mathematics) topics.
-    Each year FTC (First Tech Challenge) comes up with a new challenge for robots to solve that usually involves blocks, balls, or other easily manipulated game pieces. For information on this year’s particular game and scoring, consult a team leader or the FIRST website.
+  <!-- Container (About Section) -->
+  <div class="w3-content w3-container w3-padding-64" id="about">
+    <h3 class="w3-center">WHAT DOES THE ROBOTICS TEAM DO?</h3>
+    <p class="w3-center"><em>FIRST COMPETITION</em></p>
+    <p>Wheeler's Robotics Team competes in FIRST's FTC competition. This is an international competition which has
+      nearly 80k teams participating.
+      FIRST (“For Inspiration and Recognition of Science and Technology”) was founded in 1989 by Dean Kamen, the
+      inventor of the Segway. The goal of the competition is to inspire young people to take an interest in STEM
+      (science, technology, engineering, and mathematics) topics.
+      Each year FTC (First Tech Challenge) comes up with a new challenge for robots to solve that usually involves
+      blocks, balls, or other easily manipulated game pieces. For information on this year’s particular game and
+      scoring, consult a team leader or the FIRST website.
     </p>
 
     <p class="w3-center"><em>HOW IS THE COMPETITION SET UP?</em></p>
-    <p>Although the game elements change from year to year, the competition always contains three rounds: autonomous, TeleOp, and endgame. During the autonomous period, robots run on a preprogrammed system that can have no human input for 30 seconds. This period usually has a high point potential. After the autonomous period is over, the TeleOp (teleoperation, the control of a device or machine remotely) round begins. During this period human players are allowed to control the robot’s actions. Scoring during the autonomous period and TeleOp period works slightly differently so be sure to understand the team’s goals during each section. The final round of the competition is the endgame, which is also TeleOp. This round allows for additional scoring and is also a crucial part of the game. Usually, the robot can score points in the same ways as the TeleOp round. However, during the endgame, there are additional scoring opportunities. Each round we are matched with an alliance team with whom we will work together to complete game objectives. During competitions go to http://theorangealliance.org/ for live updates on scoring and a live stream of the event.
+    <p>Although the game elements change from year to year, the competition always contains three rounds: autonomous,
+      TeleOp, and endgame. During the autonomous period, robots run on a preprogrammed system that can have no human
+      input for 30 seconds. This period usually has a high point potential. After the autonomous period is over, the
+      TeleOp (teleoperation, the control of a device or machine remotely) round begins. During this period human players
+      are allowed to control the robot’s actions. Scoring during the autonomous period and TeleOp period works slightly
+      differently so be sure to understand the team’s goals during each section. The final round of the competition is
+      the endgame, which is also TeleOp. This round allows for additional scoring and is also a crucial part of the
+      game. Usually, the robot can score points in the same ways as the TeleOp round. However, during the endgame, there
+      are additional scoring opportunities. Each round we are matched with an alliance team with whom we will work
+      together to complete game objectives. During competitions go to http://theorangealliance.org/ for live updates on
+      scoring and a live stream of the event.
     </p>
 
     <p class="w3-center"><em>COMMITMENT</em></p>
-    TBD. We will meet twice a week during enrichment period which is on the five day rotation. You are only required to attend one practice per week but should attend both if possible. 
-        </p>
+    TBD. We will meet twice a week during enrichment period which is on the five day rotation. You are only required to
+    attend one practice per week but should attend both if possible.
+    </p>
 
-        <p class="w3-center"><em>BUT I DON'T KNOW ANYTHING, CAN I STILL JOIN?</em></p>
-        <p> YES! As a robotics team, we need all sorts of skill sets. Of course, we love students who are interested in computer science and engineering, but we also have a need to writers, artists, and more! We build training into practice so you don't have to worry about being inexperienced. </p>
+    <p class="w3-center"><em>BUT I DON'T KNOW ANYTHING, CAN I STILL JOIN?</em></p>
+    <p> YES! As a robotics team, we need all sorts of skill sets. Of course, we love students who are interested in
+      computer science and engineering, but we also have a need to writers, artists, and more! We build training into
+      practice so you don't have to worry about being inexperienced. </p>
 
   </div>
-</div>
-
-
-<!-- Second Parallax Image with SignUp Text -->
-<div class="bgimg-2 w3-display-container w3-opacity-min">
-  <div class="w3-display-middle">
-    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">How Do I Join?</span>
   </div>
-</div>
-
-<!-- Container (SignUp Section) -->
-<div class="FormContainer" id="signup">
-  <h3 class="w3-center">Sign Up:</h3>
-  <iframe src="https://docs.google.com/forms/d/1vbnQ0lyW8RrXw0AZFoF1BrggmGMf4aJO2suzf_dO6YY/viewform?embedded=true" width="640" height="455" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-  <style>
-    .FormContainer {text-align: center;}
-    </style>
-
-</div>
 
 
-<div class="FormContainer" id="Portfolio">
-  <h3 class="w3-center">Engineering Portfolio:</h3>
-<iframe width="640" height="700" src="./Engineering Portfolio 2021-2022.pdf" frameborder="0" allowfullscreen></iframe>
-
-  <style>
-    .FormContainer {text-align: center;}
-    </style>
-
-</div>
-
-<div>
-  <h3 class="w3-center">Match From Last Year:</h3>
-<p align="center"><iframe width="560" height="315" src="https://www.youtube.com/embed/0KmHu9wKw-E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
-
-  <style>
-    .FormContainer {text-align: center;}
-    </style>
-
-</div>
-<!-- Modal for full size images on click-->
-<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
-  <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i class="fa fa-remove"></i></span>
-  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
-    <img id="img01" class="w3-image">
-    <p id="caption" class="w3-opacity w3-large"></p>
-  </div>
-</div>
-
-<!-- Third Parallax Image with SignUp Text -->
-<div class="bgimg-3 w3-display-container w3-opacity-min">
-  <div class="w3-display-middle">
-     <span class="w3-xxlarge w3-text-white w3-wide">CLUB LEADERSHIP</span>
-  </div>
-</div>
-
-<!-- Container (Contact Section) -->
-<div class="w3-container w3-padding-64 w3-center" id="contact">
-    <h2>CLUB LEADERSHIP</h2>
-    
-    <div class="w3-row"><br>
-      <div class="w3-quarter"><br/></div>
-    <div class="w3-quarter">
-      <img src="/media/IMG-20201013-WA0004.jpg" alt="Mayte" style="width:45%" class="w3-circle w3-hover-opacity">
-      <div class="InfoAbt">
-      <h3>Mayte Segura</h3>
-      <p>Class of 2024</p>
-      <p>She / Her / Hers</p>
-      <p>Mayte.segura@wheelerschool.org</p>
+  <!-- Second Parallax Image with SignUp Text -->
+  <div class="bgimg-2 w3-display-container w3-opacity-min">
+    <div class="w3-display-middle">
+      <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">How Do I Join?</span>
     </div>
-    </div>
-    
-    <div class="w3-quarter">
-      <img src="/media/william.jpeg" alt="William" style="width:45%" class="w3-circle w3-hover-opacity">
-      <div class="InfoAbt">
-      <h3>William Kopans</h3>
-      <p>Class of 2022</p>
-      <p>He / Him / His</p>
-      <p>william.kopans@wheelerschool.org</p>
-    </div>
-    
+  </div>
+
+  <!-- Container (SignUp Section) -->
+  <div class="FormContainer" id="signup">
+    <h3 class="w3-center">Sign Up:</h3>
+    <iframe src="https://docs.google.com/forms/d/1vbnQ0lyW8RrXw0AZFoF1BrggmGMf4aJO2suzf_dO6YY/viewform?embedded=true"
+      width="640" height="455" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
     <style>
-        .InfoAbt {text-align: center; padding: 25px 0; vertical-align: middle;}
+      .FormContainer {
+        text-align: center;
+      }
+
+    </style>
+
+  </div>
+
+
+  <div class="FormContainer" id="Portfolio">
+    <h3 class="w3-center">Engineering Portfolio:</h3>
+    <iframe width="640" height="700" src="./Engineering Portfolio 2021-2022.pdf" frameborder="0"
+      allowfullscreen></iframe>
+
+    <style>
+      .FormContainer {
+        text-align: center;
+      }
+
+    </style>
+
+  </div>
+
+  <div>
+    <h3 class="w3-center">Match From Last Year:</h3>
+    <p align="center"><iframe width="560" height="315" src="https://www.youtube.com/embed/0KmHu9wKw-E"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe></p>
+
+    <style>
+      .FormContainer {
+        text-align: center;
+      }
+
+    </style>
+
+  </div>
+  <!-- Modal for full size images on click-->
+  <div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+    <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i
+        class="fa fa-remove"></i></span>
+    <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+      <img id="img01" class="w3-image">
+      <p id="caption" class="w3-opacity w3-large"></p>
+    </div>
+  </div>
+
+  <!-- Third Parallax Image with SignUp Text -->
+  <div class="bgimg-3 w3-display-container w3-opacity-min">
+    <div class="w3-display-middle">
+      <span class="w3-xxlarge w3-text-white w3-wide">CLUB LEADERSHIP</span>
+    </div>
+  </div>
+
+  <!-- Container (Contact Section) -->
+  <div class="w3-container w3-padding-64 w3-center" id="contact">
+    <h2>CLUB LEADERSHIP</h2>
+
+    <div class="w3-row"><br>
+      <div class="w3-quarter"><br /></div>
+      <div class="w3-quarter">
+        <img src="/media/IMG-20201013-WA0004.jpg" alt="Mayte" style="width:45%" class="w3-circle w3-hover-opacity">
+        <div class="InfoAbt">
+          <h3>Mayte Segura</h3>
+          <p>Class of 2024</p>
+          <p>She / Her / Hers</p>
+          <p>Mayte.segura@wheelerschool.org</p>
+        </div>
+      </div>
+
+      <div class="w3-quarter">
+        <img src="/media/william.jpeg" alt="William" style="width:45%" class="w3-circle w3-hover-opacity">
+        <div class="InfoAbt">
+          <h3>William Kopans</h3>
+          <p>Class of 2022</p>
+          <p>He / Him / His</p>
+          <p>william.kopans@wheelerschool.org</p>
+        </div>
+
+        <style>
+          .InfoAbt {
+            text-align: center;
+            padding: 25px 0;
+            vertical-align: middle;
+          }
+
         </style>
-    </div>
+      </div>
 
-    <div class="w3-quarter"><br/></div>
+      <div class="w3-quarter"><br /></div>
     </div>
-    </div>
-    
-    
+  </div>
 
- 
-<script>
-// Modal Image Gallery
-function onClick(element) {
-  document.getElementById("img01").src = element.src;
-  document.getElementById("modal01").style.display = "block";
-  var captionText = document.getElementById("caption");
-  captionText.innerHTML = element.alt;
-}
 
-// Change style of navbar on scroll
-window.onscroll = function() {myFunction()};
-function myFunction() {
-    var navbar = document.getElementById("myNavbar");
-    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
-        navbar.className = "w3-bar"+ " w3-text-black" + " w3-card" + " w3-animate-fade" + " w3-white";
-    } else {
+
+
+  <script>
+    // Modal Image Gallery
+    function onClick(element) {
+      document.getElementById("img01").src = element.src;
+      document.getElementById("modal01").style.display = "block";
+      var captionText = document.getElementById("caption");
+      captionText.innerHTML = element.alt;
+    }
+
+    // Change style of navbar on scroll
+    window.onscroll = function () { myFunction() };
+    function myFunction() {
+      var navbar = document.getElementById("myNavbar");
+      if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        navbar.className = "w3-bar" + " w3-text-black" + " w3-card" + " w3-animate-fade" + " w3-white";
+      } else {
         navbar.className = navbar.className.replace(" w3-text-black w3-card w3-animate-fade w3-white", " w3-text-white");
+      }
     }
-}
 
-// Used to toggle the menu on small screens when clicking on the menu button
-function toggleFunction() {
-    var x = document.getElementById("navDemo");
-    if (x.className.indexOf("w3-show") == -1) {
+    // Used to toggle the menu on small screens when clicking on the menu button
+    function toggleFunction() {
+      var x = document.getElementById("navDemo");
+      if (x.className.indexOf("w3-show") == -1) {
         x.className += " w3-show";
-    } else {
+      } else {
         x.className = x.className.replace(" w3-show", "");
+      }
     }
-}
-</script>
+  </script>
 
 </body>
+
 </html>
